@@ -225,9 +225,8 @@ header img {
 .show-more-wrapper {
   display: flex;
   justify-content: center;
-
   align-items: center;
-  margin: 40px 0;    
+  margin: 40px 0;
 }
 
 .show-more-btn {
