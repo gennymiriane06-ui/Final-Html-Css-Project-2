@@ -115,7 +115,6 @@ body {
 
 .thumbnails .mimi {
   background: #3563e9;
-  padding:20px;
   padding: 20px;
 }
 
@@ -223,7 +222,8 @@ body {
     gap: 15px;                 
   }
 
-  .left, .right {
+  .left, 
+  .right {
     max-width: 100%;
     padding: 15px;
   }
@@ -238,7 +238,7 @@ body {
     width: 100%;
     max-width: 300px;
     display: block;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
     position: static;
   }
 
@@ -267,7 +267,8 @@ body {
   }
 
   .car-grid {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
+
     gap: 15px;
   }
 
