@@ -24,7 +24,6 @@ body {
   border-radius: 8px;
 }
 
-
 .header-inner {
   display: flex;
   justify-content: space-between;
@@ -122,7 +121,6 @@ body {
 
 .right {
   background: white;
-  padding: 30px;
   border-radius: 15px;
 }
 
@@ -207,9 +205,8 @@ body {
 
 /* ================= MOBILE OPTIMIZATION ================= */
 @media (max-width: 900px) {
-
   .layout {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     padding: 20px;
   }
 
@@ -300,5 +297,4 @@ body {
   .hero p {
     margin-bottom: 10px;
   }
-
 }

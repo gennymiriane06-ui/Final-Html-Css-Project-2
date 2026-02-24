@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   background: #f6f7f9;
   color: #1a202c;
 }
@@ -46,6 +46,14 @@ header img {
 .nav-icon {
   width: 22px;
   cursor: pointer;
+}
+
+.desktop-only {
+  display: inline-block;
+}
+
+.mobile-nav {
+  display: none;
 }
 
 .profil {
@@ -283,6 +291,41 @@ header img {
 }
 
 @media (max-width: 768px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .mobile-search {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .mobile-menu {
+    padding: 8px 12px;
+    border-radius: 50%;
+    background: #3563e9;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .nav-center {
+    display: none;
+  }
+
   header {
     flex-direction: column;
     gap: 16px;
