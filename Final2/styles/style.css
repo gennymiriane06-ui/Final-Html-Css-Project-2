@@ -219,7 +219,8 @@ body {
 
   .car-detail {
     grid-template-columns: 1fr;
-    gap: 15px; 
+    gap: 15px;
+    
   }
 
   .left,
