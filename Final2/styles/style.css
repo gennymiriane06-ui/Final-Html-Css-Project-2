@@ -220,7 +220,6 @@ body {
   .car-detail {
     grid-template-columns: 1fr;
     gap: 15px;
-    
   }
 
   .left,
