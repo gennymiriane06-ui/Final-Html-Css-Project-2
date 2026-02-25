@@ -173,7 +173,7 @@ body {
 }
 
 .car-card img {
-  width: 100%;
+  width: 50%;
 }
 
 .footer {
@@ -202,7 +202,7 @@ body {
   color: #555;
 }
 
-/* ================= MOBILE OPTIMIZATION ================= */
+/* MOBILE OPTIMIZATION */
 @media (max-width: 900px) {
   .layout {
     grid-template-columns: 1fr;
