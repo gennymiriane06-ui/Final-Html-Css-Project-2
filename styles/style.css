@@ -624,12 +624,12 @@ a {
     padding: 8px 14px;
     font-size: 12px;
   }
- 
+
   .show-more {
     flex-flow: column;
     gap: 10px;
   }
- 
+
   .footer-links {
     flex-flow: row wrap;
     gap: 20px;
