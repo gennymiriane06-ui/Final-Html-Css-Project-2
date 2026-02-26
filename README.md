@@ -1,6 +1,6 @@
 # Final Html/css Final Projects
 
-![Final project2.0]()
+![Final project2.0](assets/final2.png)
 
 ## Description
 
