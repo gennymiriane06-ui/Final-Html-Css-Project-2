@@ -620,11 +620,13 @@ a {
     max-height: 120px;
   }
 
-  .rent-btn { 
+  .rent-btn 
+  {
 
-    padding: 8px 14px; 
+    padding: 8px 14px;
 
     font-size: 12px; 
+
   }
 
   .show-more { flex-direction: column; gap: 10px; }
